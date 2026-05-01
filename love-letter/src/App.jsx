@@ -25,7 +25,7 @@ function App() {
     }
 
     // Initialize audio immediately and try to autoplay
-    const audio = new Audio('/music/bark alla lakuma بارك الله ماهر زين.mp3');
+    const audio = new Audio('/music/my love.mp3');
     audio.loop = true;
     audio.volume = 0.5;
     audioRef.current = audio;
